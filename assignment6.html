@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Create a multiplication table</title>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="table.js"></script>
+    <meta charset="UTF-8">
+
+    <title>Create a multiplication table</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel=
+    'stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="table.js" type="text/javascript"></script>
 </head>
+
 <body>
-	
-	<form id="inputs" action="javascript:void(0)">
-		Please Enter the Values to Create a table for Multiplication. <br>
-		Start row    <input type="text" value="0" onKeyup="return numbersonly(this, event)" id="pOne" autofocus><br>
-		End row      <input type="text" value="0" onKeyup="return numbersonly(this, event)" id="pTwo"><br>
-		Start column <input type="text" value="0" onKeyup="return numbersonly(this, event)" id="pThree"><br>
-		End column   <input type="text" value="0" onKeyup="return numbersonly(this, event)" id="pFour"><br>
-		<button type="button" onclick="crTable()">Create</button>
-	</form>
+    <form action="javascript:void(0)" id="inputs" name="inputs">
+        Please Enter the Values to Create a table for Multiplication.<br>
+        Start row <input autofocus="" id="pOne" onkeyup=
+        "return numbersonly(this, event)" type="text" value="0"><br>
+        End row <input id="pTwo" onkeyup="return numbersonly(this, event)"
+        type="text" value="0"><br>
+        Start column <input id="pThree" onkeyup=
+        "return numbersonly(this, event)" type="text" value="0"><br>
+        End column <input id="pFour" onkeyup="return numbersonly(this, event)"
+        type="text" value="0"><br>
+        <button onclick="crTable()" type="button">Create</button>
+    </form>
 </body>
 </html>
