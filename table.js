@@ -1,3 +1,9 @@
+//Kirtan Patel
+//kirtan_patel@student.uml.edu
+//Umass Lowell Computer Science 91.461 GUI Programming I
+//Created: October 26, 2014
+//This website is mainly for creating a multiplcation table by using javascript and css files. I was having some difficulties with javascript so i got helped for it. 
+
 function crTable() {
         // using remove to refresh
         var rTable = document.getElementById("Table");

@@ -1,3 +1,10 @@
+/*Kirtan Patel
+kirtan_patel@student.uml.edu
+Umass Lowell Computer Science 91.461 GUI Programming I
+Created: October 26, 2014
+This website is mainly for creating a multiplcation table by using javascript and css files. I was having some difficulties with javascript so i got helped for it. 
+*/
+
 /* styling the body, where to start */
 body {
     background:#7D261D;
@@ -10,21 +17,21 @@ form {
     color:#fff
 }
 
-/* changing the appearance of the inputs */
+/* its for the appearance of the inputs */
 input {
     margin:7px 20px;
     border:2px solid #000;
     padding:0 4px
 }
 
-/* changing the appearance of the focus of inputs */
+/* its for the appearance of the focus of inputs */
 input:focus {
     outline:none;
     border-color:#BFCDD9;
     box-shadow:0 0 10px #9ecaed
 }
 
-/* changing the appearance of the button */
+/* its for the appearance of the button */
 button {
     margin:20px;
     border:2px solid #dadada;
@@ -32,7 +39,7 @@ button {
     background-color:#BFCDD9
 }
 
-/* changing the appearance of the focus of thebutton */
+/* this is for the appearance of the focus of thebutton */
 button:focus {
     outline:none;
     border-color:#9ecaed;
